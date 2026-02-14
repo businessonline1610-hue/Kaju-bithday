@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sending you birthday smiles 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<h1 class="title">happy birthday kaju 🩷</h1>
+
+<p class="intro">
+Have the best birthday ever 💕
+</p>
+
+<button id="surpriseBtn">Open Your Surprise 🎂</button>
+
+<div id="cakeSection" class="hidden">
+    <img src="https://i.imgur.com/4M7IWwP.png" class="cake">
+
+    <div class="flames">
+        <div class="flame" id="f1"></div>
+        <div class="flame" id="f2"></div>
+        <div class="flame" id="f3"></div>
+    </div>
+
+    <p>Blow on mic to turn off candles 🎂✨</p>
+</div>
+
+<div id="finalMessage" class="hidden">
+    <h2>💖 Dear kaju 💖</h2>
+    <p>
+    (Hope your day is as amazing as you and your day brings endless joy celebrate like there's no tomorrow 💌)
+    </p>
+</div>
+
+<audio id="music" loop>
+  <source src="birthday.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
